@@ -28,6 +28,8 @@ nav ul {
 nav li {
   padding: 10px;
   list-style: none;
+  font-size: 16px;
+  position: relative;
 }
 
 nav a {
@@ -37,4 +39,19 @@ nav a {
 
 nav a:hover {
   color: #FF0F50
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #FF0F50;
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
