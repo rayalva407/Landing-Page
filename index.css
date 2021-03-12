@@ -67,8 +67,33 @@ nav a:hover::before {
 }
 
 .btn-signup {
-  border: solid #FF0F50;
+  border: 3px solid #FF0F50 ;
   background-color: #0fffbe;
-  border-radius: 10%;
+  border-radius: 5px;
   color: #FF0F50;
+  height: 50%;
+  box-shadow: 0 0 2px;
+  transition-duration: 0.4s;
 }
+
+.btn-signup:hover {
+  background-color: #FF0F50;
+  color: black;
+}
+
+.btn-signup:active {
+  background-color: #0fffbe;
+}
+
+.btn-started {
+  background-color: #FF0F50;
+  border-radius: 5px;
+}
+
+.main input {
+  background-color: #0fffbe;
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: gray;
+}
+
