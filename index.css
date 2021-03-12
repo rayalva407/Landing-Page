@@ -97,3 +97,22 @@ nav a:hover::before {
   color: gray;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px 0 50px;
+  background-color:#FF0F50;
+  height: 250px;
+  width: auto;
+  bottom: 0;
+
+}
+
+.footer div {
+  text-align: center;
+  width: 20%;
+}
+
+.guitar-icon {
+  height: 10%;
+}
