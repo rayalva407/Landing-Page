@@ -25,16 +25,16 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
+nav li {
   padding: 10px;
   list-style: none;
 }
 
-nav ul li a {
+nav a {
   text-decoration: none;
   color: black;
 }
 
-nav ul li a:hover {
+nav a:hover {
   color: #FF0F50
 }
